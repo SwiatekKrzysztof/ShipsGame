@@ -1,7 +1,7 @@
 package ShipsGame.model;
 
 
-import ShipsGame.service.StaticMethods;
+import ShipsGame.service.MastService;
 
 import java.util.List;
 
@@ -17,13 +17,13 @@ public class Mast {
         this.row = row;
         this.type = type;
         this.number = number;
-        StaticMethods.addMastToList(this, masts); //whenever we create mast we add it to the appropriate list
+        MastService.addMastToList(this, masts); //whenever we create mast we add it to the appropriate list
     }
 
     public Mast(int column, int row,List<Mast> shots) { //shots made by player
         this.column = column;
         this.row = row;
-        StaticMethods.addMastToList(this, shots); //whenever player shoots we save it in the appropriate list(shots)
+        MastService.addMastToList(this, shots); //whenever player shoots we save it in the appropriate list(shots)
     }
 
     @Override
