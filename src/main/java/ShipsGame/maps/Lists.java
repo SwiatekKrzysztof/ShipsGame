@@ -1,4 +1,6 @@
-package pl.sda.ships_skeleton.model;
+package ShipsGame.maps;
+
+import ShipsGame.model.Mast;
 
 import java.util.ArrayList;
 import java.util.List;

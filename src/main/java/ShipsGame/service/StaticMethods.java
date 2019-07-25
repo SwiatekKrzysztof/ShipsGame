@@ -1,7 +1,6 @@
-package pl.sda.ships_skeleton.controller;
+package ShipsGame.service;
 
-import pl.sda.ships_skeleton.model.Lists;
-import pl.sda.ships_skeleton.model.Mast;
+import ShipsGame.model.Mast;
 
 import java.util.List;
 

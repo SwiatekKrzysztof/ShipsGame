@@ -1,6 +1,7 @@
-package pl.sda.ships_skeleton.model;
+package ShipsGame.model;
 
-import pl.sda.ships_skeleton.controller.StaticMethods;
+
+import ShipsGame.service.StaticMethods;
 
 import java.util.List;
 
