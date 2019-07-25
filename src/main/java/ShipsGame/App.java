@@ -22,7 +22,9 @@ public class App extends Application {
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
         System.out.println("Dobra zmiana");
+        
         System.out.println("trzecie zmiana");
+
 
     }
 }
