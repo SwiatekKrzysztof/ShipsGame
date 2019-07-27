@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShipsGame.controller.RootController">
+   <children>
+      <VBox layoutX="465.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b00" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b10" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b20" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b30" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b40" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b50" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b60" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b70" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b80" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b90" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="489.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b01" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b11" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b21" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b31" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b41" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b51" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b61" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b71" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b81" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b91" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="513.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b02" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b12" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b22" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b32" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b42" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b52" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b62" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b72" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b82" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b92" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="537.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b03" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b13" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b23" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b33" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b43" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b53" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b63" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b73" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b83" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b93" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="561.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b04" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b14" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b24" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b34" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b44" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b54" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b64" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b74" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b84" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b94" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="585.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b05" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b15" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b25" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b35" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b45" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b55" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b65" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b75" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b85" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b95" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="609.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b06" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b16" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b26" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b36" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b46" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b56" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b66" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b76" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b86" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b96" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="633.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b07" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b17" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b27" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b37" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b47" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b57" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b67" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b77" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b87" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b97" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="657.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b08" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b18" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b28" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b38" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b48" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b58" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b68" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b78" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b88" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b98" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="681.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b09" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b19" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b29" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b39" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b49" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b59" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b69" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b79" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b89" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b99" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <Button layoutX="539.0" layoutY="430.0" mnemonicParsing="false" text="Zatwierdź" />
+      <VBox layoutX="431.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <TextField prefHeight="23.0" prefWidth="44.0" text="1" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="2" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="3" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="4" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="5" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="6" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="7" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="8" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="9" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="10">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox layoutX="463.0" layoutY="131.0" prefHeight="25.0" prefWidth="245.0">
+         <children>
+            <TextField prefHeight="112.0" prefWidth="24.0" text="A" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="B" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="C" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="D" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="E" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="F" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="G" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="H" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="I" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="J" />
+         </children>
+      </HBox>
+      <Label layoutX="332.0" layoutY="27.0" prefHeight="27.0" prefWidth="133.0" text="Gra w statki" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <VBox layoutX="91.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b001" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b101" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b201" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b301" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b401" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b501" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b601" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b701" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b801" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b901" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="115.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b011" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b111" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b211" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b311" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b411" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b511" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b611" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b711" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b811" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b911" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="139.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b021" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b121" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b221" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b321" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b421" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b521" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b621" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b721" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b821" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b921" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="163.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b031" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b131" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b231" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b331" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b431" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b531" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b631" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b731" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b831" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b931" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="187.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b041" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b141" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b241" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b341" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b441" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b541" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b641" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b741" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b841" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b941" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="211.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b051" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b151" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b251" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b351" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b451" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b551" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b651" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b751" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b851" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b951" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="235.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b061" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b161" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b261" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b361" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b461" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b561" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b661" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b761" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b861" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b961" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="259.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b071" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b171" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b271" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b371" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b471" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b571" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b671" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b771" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b871" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b971" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="283.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b081" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b181" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b281" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b381" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b481" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b581" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b681" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b781" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b881" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b981" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="307.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button fx:id="b091" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b191" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b291" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b391" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b491" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b591" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b691" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b791" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b891" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+            <Button fx:id="b991" mnemonicParsing="false" onAction="#buttonAction" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="57.0" layoutY="163.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <TextField prefHeight="23.0" prefWidth="44.0" text="1" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="2" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="3" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="4" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="5" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="6" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="7" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="8" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="9" />
+            <TextField prefHeight="23.0" prefWidth="44.0" text="10">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox layoutX="89.0" layoutY="131.0" prefHeight="25.0" prefWidth="245.0">
+         <children>
+            <TextField prefHeight="112.0" prefWidth="24.0" text="A" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="B" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="C" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="D" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="E" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="F" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="G" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="H" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="I" />
+            <TextField prefHeight="112.0" prefWidth="24.0" text="J" />
+         </children>
+      </HBox>
+      <Label layoutX="168.0" layoutY="92.0" text="Plansza strzałów" />
+      <Label layoutX="513.0" layoutY="92.0" prefHeight="17.0" prefWidth="145.0" text="Plansza własnych okrętów" />
+      <TextField layoutX="125.0" layoutY="430.0" text="polecenie" />
+      <TextArea layoutX="45.0" layoutY="92.0" prefHeight="242.0" prefWidth="260.0" text="Wypełnij plansze statkami:&#10;- 1x statek cztero masztowy&#10;- 2x statki trzy masztowe&#10;- 3x statki dwumasztowe&#10;- 4x statki jednomasztowe&#10;a następnie naciśniej przycisk &quot;Zatwierdź&quot;.&#10;&#10;Dodatkowe informacje:&#10;-  Pojedynczy statkek nie może się łamać,&#10;musi być ustawiony w jednej linii.&#10;- Statki nie mogą się dotykać bokami &#10;oraz narożnikami" />
+   </children>
+</Pane>
