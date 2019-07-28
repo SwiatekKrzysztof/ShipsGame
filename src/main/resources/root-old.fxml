@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<Pane fx:controller="ShipsGame.controller.StartController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="243.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b00" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b10" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b20" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b30" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b40" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b50" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b60" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b70" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b80" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b90" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="267.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b01" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b11" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b21" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b31" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b41" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b51" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b61" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b71" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b81" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b91" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="291.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b02" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b12" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b22" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b32" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b42" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b52" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b62" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b72" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b82" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b92" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="315.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b03" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b13" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b23" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b33" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b43" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b53" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b63" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b73" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b83" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b93" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="339.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b04" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b14" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b24" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b34" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b44" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b54" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b64" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b74" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b84" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b94" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="363.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b05" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b15" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b25" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b35" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b45" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b55" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b65" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b75" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b85" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b95" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="387.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b06" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b16" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b26" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b36" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b46" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b56" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b66" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b76" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b86" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b96" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="411.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b07" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b17" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b27" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b37" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b47" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b57" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b67" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b77" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b87" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b97" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="435.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b08" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b18" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b28" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b38" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b48" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b58" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b68" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b78" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b88" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b98" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+      <VBox layoutX="459.0" layoutY="56.0" prefHeight="250.0" prefWidth="24.0">
+         <children>
+            <Button onAction="#putMast" fx:id="b09" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b19" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b29" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b39" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b49" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b59" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b69" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b79" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b89" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+            <Button onAction="#putMast" fx:id="b99" mnemonicParsing="false" prefHeight="20.0" prefWidth="24.0" />
+         </children>
+      </VBox>
+   </children>
+</Pane>
