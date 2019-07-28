@@ -1,28 +1,48 @@
 package ShipsGame;
 
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+
 import javafx.stage.Stage;
 
 
 public class App extends Application {
-    public static void main( String[] args ) {
+
+    protected Parent root;
+    private Stage stage;
+
+    public static void main(String[] args) {
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root =
-                FXMLLoader.load(
-                        getClass()
-                                .getResource("/root.fxml"));
+        //stage = primaryStage;
+        stage = primaryStage;
+        root = FXMLLoader.load(
+                getClass()
+                        .getResource("/start.fxml"));
 
-        primaryStage.setScene(new Scene(root));
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Gra w statki");
         primaryStage.show();
-        System.out.println("Dobra zmiana");
 
-        System.out.println("trzecie zmiana");
     }
+
+//    public void gamePage() throws Exception {
+//
+//        root = FXMLLoader.load(getClass().getResource("/gameGUI.fxml"));
+//
+//        Scene scene = new Scene(root);
+//        stage.setScene(scene);
+//
+//        stage.show();
+//
+//
+//    }
+
 }
