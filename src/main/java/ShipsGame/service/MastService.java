@@ -8,4 +8,6 @@ public class MastService {
     public static void addMastToList(Mast mast, List<Mast> list){
         list.add(mast);
     }
+
+
 }

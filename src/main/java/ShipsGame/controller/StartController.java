@@ -1,6 +1,7 @@
 package ShipsGame.controller;
 
 
+import ShipsGame.service.ComputerBoardService;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -36,6 +37,13 @@ public class StartController {
         stage.setTitle("Gra w statki");
         stage.setScene(new Scene(root1));
         stage.show();
+
+        ComputerBoardService computerBoardService = new ComputerBoardService();
+
+
+        //temp
+        computerBoardService.boardFilling();
+
 
 
     }
